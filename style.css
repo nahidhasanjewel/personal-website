@@ -1,0 +1,125 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.name{
+    color: rgb(216, 12, 80);
+}
+.top-banner{
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+    float: left;
+    padding-bottom: 150px;
+    
+    
+
+}
+.middle-banner{
+    background-image: url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    float: left;
+    padding-bottom: 150px;
+
+  
+   
+   
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+   
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.half-width img{
+    width: 80%;
+}
+p{
+    color: dimgrey;
+}
+.hiremebutton{
+    text-decoration: none;
+    background-color: fuchsia;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+.latest-pic{
+    background-image: url("image/latest-work-bg.png");
+    float: left;
+    width: 31.3%;
+    margin-left: 5px;
+    padding: 2px;
+    display: flex;
+    padding-bottom: 30px;
+    
+
+}
+.work{
+    background-image: url("image/latest-work-bg.png");
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+.client-say{
+    text-align: center;
+
+}
+h6{
+    color:dimgray;
+}
+.mail h3{
+    background-color:rgb(207, 21, 130);
+    text-align: center;
+    padding: 10px 30px ;
+ 
+    color:white;
+    border-bottom: 300px;
+    height: 100px;
+    width: 300px;
+    border-radius: 6px;
+  
+    
+
+}
+.orange-highlite{
+    color: orange;
+}
+.single-experience{
+  
+    box-shadow: 10px 20px 40px gray;
+    border-radius: 5px;
+    height: 100%;
+}
+.experience-area{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#full-stack{
+    border-left: 7px  solid;
+    border-image: linear-gradient(180deg,orange,#c7154a);
+    border-image-slice:1;
+    border-radius: 5px;
+    
+}
+#web-dev{
+
+    border-left: 7px  solid;
+    border-image: linear-gradient(180deg, pink,red);
+    border-image-slice:1;
+    border-radius: 5px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+.footer-img{
+    background-image: url("image/footer-bg.png");
+    width: 100%;
+}
